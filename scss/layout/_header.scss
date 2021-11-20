@@ -1,0 +1,110 @@
+.header {
+  border: 1px solid var(--brand-color-line);
+}
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.color-block-a {
+  color: var(--brand-color-title);
+}
+.color-block {
+  color: var(--brand-color-text);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.drei-button {
+  display: flex;
+  margin-left: 93px;
+}
+
+.drei-button-item {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-color-title);
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.zwei-button {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.zwei-button-item {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-color-text);
+}
+.zwei-button-item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-link::after {
+  content: "";
+  opacity: 1;
+  position: absolute;
+  display: block;
+  bottom: -32.5px;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--brand-color-basic);
+}
+.navigation-link {
+  position: relative;
+}
+
+.icon-header .icon-header-item:hover,
+.icon-header .icon-header-item:focus {
+  background-color: var(--brand-color-name);
+  fill: var(--brand-color-basic);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.icon-header:hover .icon-header-item,
+.icon-header:focus .icon-header-item {
+  color: var(--brand-color-basic);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.icon-header:hover,
+.icon-header:focus {
+  fill: var(--brand-color-basic);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.icon-header:hover .icon-header-item,
+.icon-header:focus .icon-header-item {
+  fill: var(--brand-color-basic);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.zwei-button .icon-header:hover,
+.zwei-button .icon-header:focus {
+  border: var(--brand-color-basic);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.icon-header {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.icon-header-linc {
+  margin-right: 10px;
+}
+
+.icon-header-item {
+  display: flex;
+  align-self: center;
+  fill: var(--brand-color-text);
+}
