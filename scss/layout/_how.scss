@@ -1,14 +1,14 @@
-.how-a {
+.nav-how {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
 }
-.imgbox-a:not(:last-child) {
+.nav-how_item:not(:last-child) {
   padding-right: 30px;
 }
-.imgbox {
+.nav-how_icon {
   /**padding: 15px;**/
   display: flex;
   justify-content: space-between;

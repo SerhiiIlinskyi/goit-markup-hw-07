@@ -98,15 +98,15 @@ body {
   margin-right: auto;
 } */
 /**верхняя линия**/
-/* .header {
+.header {
   border: 1px solid var(--brand-color-line);
 }
 .header-container {
   margin: 0 auto;
   display: flex;
   align-items: center;
-} */
-/* .web-studio-header {
+}
+.web-studio-header {
   padding-top: 24px;
   padding-bottom: 25px;
   font-family: Raleway;
@@ -130,8 +130,8 @@ body {
 }
 .footer-studio {
   color: var(--brand-color-name);
-} */
-/* .color-block-a {
+}
+/.color-block-a {
   color: var(--brand-color-title);
 }
 .color-block {
@@ -232,7 +232,7 @@ body {
   align-self: center;
   fill: var(--brand-color-text);
 }
- */
+*/
 /**index**/
 /**шапка**/
 /* .hero {

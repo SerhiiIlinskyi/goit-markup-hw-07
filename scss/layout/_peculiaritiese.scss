@@ -1,18 +1,18 @@
-.peculiaritiese {
+.nav-block-icon {
   display: flex;
   align-items: stretch;
   padding-top: 0px;
 }
-.block:not(:last-child) {
+.nav-block-icon_item:not(:last-child) {
   margin-right: 30px;
 }
-.block-name {
+.nav-block-icon_title {
   width: 270px;
   height: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.block-text {
+.nav-block-icon_text {
   width: 270px;
   height: 75px;
   font-weight: 400;
