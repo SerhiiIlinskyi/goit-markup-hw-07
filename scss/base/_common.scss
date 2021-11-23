@@ -1,3 +1,12 @@
+body {
+  font-family: Roboto;
+  color: var(--brand-color-title);
+  font-size: 14px;
+  line-height: 1.72;
+  background-color: var(--brand-color-name);
+  letter-spacing: 0.03em;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,12 +26,4 @@ ul {
 }
 button {
   cursor: pointer;
-}
-body {
-  font-family: Roboto;
-  color: var(--brand-color-title);
-  font-size: 14px;
-  line-height: 1.72;
-  background-color: var(--brand-color-name);
-  letter-spacing: 0.03em;
 }

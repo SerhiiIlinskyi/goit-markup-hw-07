@@ -1,0 +1,69 @@
+.footer {
+  background-color: var(--brand-color-substrate);
+  font-weight: 400;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.footer-a {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-text);
+  text-decoration: none;
+}
+
+.button-label-footer {
+  background-color: var(--brand-color-basic);
+}
+.footer-blank {
+  margin-left: 93px;
+}
+.footer-blank-name {
+  color: var(--brand-color-name);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.label-footer-text {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 16px;
+  color: var(--brand-color-name);
+  background: var(--brand-color-substrate);
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.label-footer-text:focus-within {
+  border: 1px solid var(--brand-color-basic);
+  border-radius: 4px;
+  outline: none;
+}
+
+.subscribe .label-footer-text:hover,
+.subscribe .label-footer-text:focus {
+  border-radius: var(--brand-color-basic);
+}
+
+.customers-icon-footer {
+  fill: var(--brand-color-name);
+  margin-left: 10px;
+}
+.button-label-footer {
+  position: absolute;
+  color: var(--brand-color-name);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-style: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--brand-color-basic);
+}

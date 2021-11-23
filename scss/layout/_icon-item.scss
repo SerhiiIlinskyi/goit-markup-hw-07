@@ -1,0 +1,23 @@
+.icon-item {
+  display: flex;
+  justify-content: center;
+}
+.peculiaritiese-item {
+  background-color: var(--brand-color-back);
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.peculiaritiese-item:not(:last-child) {
+  margin-right: 30px;
+}
+.peculiaritiese-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.peculiaritiese-icon {
+}

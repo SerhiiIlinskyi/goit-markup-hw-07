@@ -1,0 +1,117 @@
+.button-poster {
+  display: block;
+  padding-bottom: 94px;
+}
+.button {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--brand-color-title);
+  font-weight: 500;
+}
+.button-all {
+  text-align: center;
+}
+.alle-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.button-alle {
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button-all:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-a {
+  height: 38px;
+  width: 73px;
+}
+.button-b {
+  height: 38px;
+  width: 128px;
+}
+.button-c {
+  height: 38px;
+  width: 145px;
+}
+.button-d {
+  height: 38px;
+  width: 103px;
+}
+.button-e {
+  height: 38px;
+  width: 130px;
+}
+
+.button .button-alle:hover,
+.button .button-alle:focus {
+  background-color: var(--brand-color-basic);
+  color: var(--brand-color-name);
+  box-shadow: 0 2px 2px 0 var(--brand-color-link);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.poster {
+  display: flex;
+  flex-wrap: wrap;
+}
+.poster-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-right: 1px solid var(--brand-color-recht);
+  border-bottom: 1px solid var(--brand-color-recht);
+}
+
+.poster-blank {
+  display: flex;
+  border-bottom: 1px solid var(--brand-color-recht);
+}
+.poster-blank:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.poster-blank:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+.poster-foto {
+  text-decoration: none;
+}
+.poster-name {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--brand-color-title);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.poster-text {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--brand-color-text);
+  font-weight: 400;
+}
+
+.box-poster {
+  position: absolute;
+  overflow: hidden;
+  width: 370px;
+  height: 294px;
+}
+
+.poster-blank:hover .overlay,
+.poster-blank:focus .overlay {
+  transform: translatex(0);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.poster .poster-blank:hover,
+.poster .poster-blank:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}

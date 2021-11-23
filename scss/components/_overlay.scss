@@ -1,0 +1,26 @@
+.overlay {
+  padding-top: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 370px;
+  height: 294px;
+  color: var(--brand-color-name);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  height: 1.55;
+  background-color: var(--brand-color-basic-overlay);
+  transform: translatey(101%);
+  transition: transform 250ms;
+}
+
+.overlay-a {
+  color: var(--brand-color-name);
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}

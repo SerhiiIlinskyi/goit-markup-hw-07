@@ -1,0 +1,46 @@
+.ourteam {
+  background: var(--brand-color-back);
+}
+.our {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--brand-color-title);
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.fotogrupp {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 30px);
+}
+.foto-a {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: var(--brand-color-name);
+}
+.foto-a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.name-img {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--brand-color-title);
+  font-weight: 500;
+}
+.name-specialitat {
+  font-size: 16px;
+  color: var(--brand-color-text);
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.name-i-s {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
