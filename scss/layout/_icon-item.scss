@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-.nav-icon_item {
+.nav-icon__item {
   background-color: var(--brand-color-back);
   width: 270px;
   height: 120px;
@@ -11,13 +11,13 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.nav-icon_item:not(:last-child) {
+.nav-icon__item:not(:last-child) {
   margin-right: 30px;
 }
-.nav-icon_link {
+.nav-icon__link {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.nav-icon_icon {
+.nav-icon__icon {
 }

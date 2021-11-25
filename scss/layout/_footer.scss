@@ -6,13 +6,6 @@
   display: flex;
 }
 
-.footer-a {
-  font-style: normal;
-  font-weight: 400;
-  color: var(--brand-color-text);
-  text-decoration: none;
-}
-
 .button-label-footer {
   background-color: var(--brand-color-basic);
 }
@@ -66,4 +59,10 @@
   align-items: center;
   text-align: center;
   background-color: var(--brand-color-basic);
+}
+.footer-a {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-text);
+  text-decoration: none;
 }

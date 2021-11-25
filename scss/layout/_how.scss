@@ -5,15 +5,15 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.nav-how_item:not(:last-child) {
+.nav-how__item:not(:last-child) {
   padding-right: 30px;
 }
-.nav-how_icon {
+.nav-how__icon {
   /**padding: 15px;**/
   display: flex;
   justify-content: space-between;
 }
-.box-imgbox {
+.nav-how__imgb {
   position: relative;
   bottom: 75px;
   width: 100%;

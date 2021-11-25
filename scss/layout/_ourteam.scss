@@ -1,7 +1,7 @@
 .ourteam {
   background: var(--brand-color-back);
 }
-.nav-ourteam-title {
+.nav-ourteam__title {
   font-size: 36px;
   line-height: 1.17;
   color: var(--brand-color-title);
@@ -9,38 +9,37 @@
   font-weight: 700;
   margin-bottom: 50px;
 }
-.nav-ourteam_icon {
+.nav-ourteam__icon {
   display: flex;
   justify-content: space-between;
   width: calc(100% - 30px);
 }
-.nav-ourteam_item {
+/* .nav-ourteam__item {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
   background-color: var(--brand-color-name);
-}
-.nav-ourteam_item:not(:last-child) {
+} */
+.nav-ourteam__item:not(:last-child) {
   margin-right: 30px;
 }
+.nav-ourteam__name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 
-.name-img {
+.nav-ourteam__img {
   font-size: 16px;
   line-height: 1.2;
   color: var(--brand-color-title);
   font-weight: 500;
 }
-.name-specialitat {
+.nav-ourteam__spec {
   font-size: 16px;
   color: var(--brand-color-text);
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 16px;
-}
-
-.name-i-s {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
 }

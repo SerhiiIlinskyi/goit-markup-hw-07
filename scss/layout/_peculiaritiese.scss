@@ -1,18 +1,19 @@
 .nav-block-icon {
   display: flex;
+  justify-content: space-between;
   align-items: stretch;
   padding-top: 0px;
 }
-.nav-block-icon_item:not(:last-child) {
+.nav-block-icon__item:not(:last-child) {
   margin-right: 30px;
 }
-.nav-block-icon_title {
+.nav-block-icon__title {
   width: 270px;
   height: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.nav-block-icon_text {
+.nav-block-icon__text {
   width: 270px;
   height: 75px;
   font-weight: 400;
