@@ -6,6 +6,11 @@
   display: flex;
 }
 
+.footer__alle {
+  display: flex;
+  align-items: baseline;
+}
+
 .button-label-footer {
   background-color: var(--brand-color-basic);
 }
@@ -60,9 +65,16 @@
   text-align: center;
   background-color: var(--brand-color-basic);
 }
-.footer-a {
+.adress-list_link {
   font-style: normal;
   font-weight: 400;
   color: var(--brand-color-text);
   text-decoration: none;
+}
+
+.adress-list .adress-list_link:hover,
+.adress-list .adress-list_link:focus {
+  color: var(--brand-color-name);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
