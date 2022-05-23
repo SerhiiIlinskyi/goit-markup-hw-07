@@ -1,0 +1,10 @@
+$colors: (
+  "box-ourtem": rgb(0 0 0 / 12%),
+  "box-ourteama": rgb(0 0 0 / 14%),
+  "box-ourteamb": rgb(0 0 0 / 20%),
+  "box-back": #ffffff,
+);
+
+/* @function getColor($key) {
+  @return map-get($colors, $key);
+} */

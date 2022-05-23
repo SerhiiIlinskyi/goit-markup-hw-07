@@ -1,26 +1,15 @@
-.ourteam {
-  background: var(--brand-color-back);
-}
-.nav-ourteam__title {
-  font-size: 36px;
-  line-height: 1.17;
-  color: var(--brand-color-title);
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
 .nav-ourteam__icon {
   display: flex;
   justify-content: space-between;
   width: calc(100% - 30px);
 }
-/* .nav-ourteam__item {
-  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-    0px 2px 1px rgb(0 0 0 / 20%);
+.nav-ourteam__item {
+  box-shadow: 0px 1px 3px getColor(box-ourtem),
+    0px 1px 1px getColor(box-ourtema), 0px 2px 1px getColor(box-ourteamb);
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
-  background-color: var(--brand-color-name);
-} */
+  background-color: getColor(box-back);
+}
 .nav-ourteam__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -42,4 +31,8 @@
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 16px;
+}
+
+@function getColor($key) {
+  @return map-get($colors, $key);
 }

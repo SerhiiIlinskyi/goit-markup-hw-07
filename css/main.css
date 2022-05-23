@@ -53,6 +53,12 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -638,17 +644,16 @@ button {
   width: calc(100% - 30px);
 }
 
-/* .nav-ourteam__item {
+/*.nav-ourteam__item {
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 2px;
   background-color: var(--brand-color-name);
-} */
+}
 .nav-ourteam__item:not(:last-child) {
   margin-right: 30px;
-}
-
+}*/
 .nav-ourteam__name {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -764,10 +769,6 @@ button {
   font-weight: 500;
 }
 
-.button-all {
-  text-align: center;
-}
-
 .alle-button {
   display: flex;
   flex-direction: row;
@@ -779,6 +780,10 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.button-all {
+  text-align: center;
 }
 
 .button-all:not(:last-child) {

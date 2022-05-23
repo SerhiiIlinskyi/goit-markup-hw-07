@@ -8,9 +8,7 @@
   color: var(--brand-color-title);
   font-weight: 500;
 }
-.button-all {
-  text-align: center;
-}
+
 .alle-button {
   display: flex;
   flex-direction: row;
@@ -21,6 +19,10 @@
   border: none;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.button-all {
+  text-align: center;
 }
 .button-all:not(:last-child) {
   margin-right: 8px;
